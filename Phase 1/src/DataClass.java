@@ -10,7 +10,7 @@ class DataClass {
 
 
         Scanner scan = null;
-        File file = new File("Phase 1/in/" + Filename);
+        File file = new File(Filename);
         try {
             scan = new Scanner(file);
         } catch (FileNotFoundException e) {
